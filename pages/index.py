@@ -16,17 +16,21 @@ column1 = dbc.Col(
         dcc.Markdown(
             """
         
-            ## Your Value Proposition
+            ## Introduction
 
-            Emphasize how the app will benefit users. Don't emphasize the underlying technology.
+            Citibike is a bike share program in NYC that uses docks. It was introduced in 2013, and it was the biggest bike share of the time.
 
-            ✅ RUN is a running app that adapts to your fitness levels and designs personalized workouts to help you improve your running.
+            The importance of Citibike has been brought to the spotlight during the covid pandemic.
 
-            ❌ RUN is the only intelligent running app that uses sophisticated deep neural net machine learning to make your run smarter because we believe in ML driven workouts.
+            Bike share presents the best SCALABLE alternative to densely packed public transit. 
+
+            I've compared spring CitiBike trips in the Pre-covid era and the post-covid era to see how people are using the service differently
+
+            Being tuned into changes in ridership patterns will help the platform run more efficiently for New Yorkers.
 
             """
         ),
-        dcc.Link(dbc.Button('Your Call To Action', color='primary'), href='/predictions')
+        dcc.Link(dbc.Button("Let's Ride", color='primary'), href='/predictions')
     ],
     md=4,
 )
